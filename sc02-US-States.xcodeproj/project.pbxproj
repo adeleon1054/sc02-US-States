@@ -8,24 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		F5ED1CA61FAA836B00C08674 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5ED1CA51FAA836B00C08674 /* AppDelegate.m */; };
-		F5ED1CA91FAA836B00C08674 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5ED1CA81FAA836B00C08674 /* ViewController.m */; };
 		F5ED1CAC1FAA836B00C08674 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5ED1CAA1FAA836B00C08674 /* Main.storyboard */; };
 		F5ED1CAE1FAA836B00C08674 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5ED1CAD1FAA836B00C08674 /* Assets.xcassets */; };
 		F5ED1CB11FAA836B00C08674 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5ED1CAF1FAA836B00C08674 /* LaunchScreen.storyboard */; };
 		F5ED1CB41FAA836B00C08674 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5ED1CB31FAA836B00C08674 /* main.m */; };
+		F5ED1CBC1FAA854F00C08674 /* StatesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5ED1CBB1FAA854F00C08674 /* StatesTableViewController.m */; };
+		F5ED1CBF1FAA860B00C08674 /* StatesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F5ED1CBE1FAA860B00C08674 /* StatesTableViewCell.m */; };
+		F5ED1CC11FAA875500C08674 /* Flags in Resources */ = {isa = PBXBuildFile; fileRef = F5ED1CC01FAA875500C08674 /* Flags */; };
+		F5ED1CC41FAA8A6700C08674 /* States.m in Sources */ = {isa = PBXBuildFile; fileRef = F5ED1CC31FAA8A6700C08674 /* States.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F5ED1CA11FAA836B00C08674 /* sc02-US-States.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sc02-US-States.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5ED1CA41FAA836B00C08674 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F5ED1CA51FAA836B00C08674 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F5ED1CA71FAA836B00C08674 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F5ED1CA81FAA836B00C08674 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F5ED1CAB1FAA836B00C08674 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F5ED1CAD1FAA836B00C08674 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5ED1CB01FAA836B00C08674 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5ED1CB21FAA836B00C08674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5ED1CB31FAA836B00C08674 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5ED1CBA1FAA854F00C08674 /* StatesTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StatesTableViewController.h; sourceTree = "<group>"; };
+		F5ED1CBB1FAA854F00C08674 /* StatesTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StatesTableViewController.m; sourceTree = "<group>"; };
+		F5ED1CBD1FAA860B00C08674 /* StatesTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StatesTableViewCell.h; sourceTree = "<group>"; };
+		F5ED1CBE1FAA860B00C08674 /* StatesTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StatesTableViewCell.m; sourceTree = "<group>"; };
+		F5ED1CC01FAA875500C08674 /* Flags */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Flags; sourceTree = "<group>"; };
+		F5ED1CC21FAA8A6700C08674 /* States.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = States.h; sourceTree = "<group>"; };
+		F5ED1CC31FAA8A6700C08674 /* States.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = States.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,13 +68,18 @@
 			children = (
 				F5ED1CA41FAA836B00C08674 /* AppDelegate.h */,
 				F5ED1CA51FAA836B00C08674 /* AppDelegate.m */,
-				F5ED1CA71FAA836B00C08674 /* ViewController.h */,
-				F5ED1CA81FAA836B00C08674 /* ViewController.m */,
+				F5ED1CBA1FAA854F00C08674 /* StatesTableViewController.h */,
+				F5ED1CBB1FAA854F00C08674 /* StatesTableViewController.m */,
+				F5ED1CBD1FAA860B00C08674 /* StatesTableViewCell.h */,
+				F5ED1CBE1FAA860B00C08674 /* StatesTableViewCell.m */,
 				F5ED1CAA1FAA836B00C08674 /* Main.storyboard */,
 				F5ED1CAD1FAA836B00C08674 /* Assets.xcassets */,
 				F5ED1CAF1FAA836B00C08674 /* LaunchScreen.storyboard */,
 				F5ED1CB21FAA836B00C08674 /* Info.plist */,
 				F5ED1CB31FAA836B00C08674 /* main.m */,
+				F5ED1CC01FAA875500C08674 /* Flags */,
+				F5ED1CC21FAA8A6700C08674 /* States.h */,
+				F5ED1CC31FAA8A6700C08674 /* States.m */,
 			);
 			path = "sc02-US-States";
 			sourceTree = "<group>";
@@ -131,6 +144,7 @@
 			files = (
 				F5ED1CB11FAA836B00C08674 /* LaunchScreen.storyboard in Resources */,
 				F5ED1CAE1FAA836B00C08674 /* Assets.xcassets in Resources */,
+				F5ED1CC11FAA875500C08674 /* Flags in Resources */,
 				F5ED1CAC1FAA836B00C08674 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,9 +156,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5ED1CA91FAA836B00C08674 /* ViewController.m in Sources */,
+				F5ED1CBC1FAA854F00C08674 /* StatesTableViewController.m in Sources */,
 				F5ED1CB41FAA836B00C08674 /* main.m in Sources */,
+				F5ED1CC41FAA8A6700C08674 /* States.m in Sources */,
 				F5ED1CA61FAA836B00C08674 /* AppDelegate.m in Sources */,
+				F5ED1CBF1FAA860B00C08674 /* StatesTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
